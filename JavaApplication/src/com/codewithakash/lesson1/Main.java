@@ -1,4 +1,4 @@
-package com.codewithakash;
+package com.codewithakash.lesson1;
 
 import java.util.Arrays;
 import java.util.Date;
