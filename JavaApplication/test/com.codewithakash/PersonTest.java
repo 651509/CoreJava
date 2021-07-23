@@ -34,7 +34,7 @@ public class PersonTest {
         }
 
         for(Person myPerson: persons){
-            myPerson.helloWorld();
+            System.out.println(myPerson.helloWorld());
         }
 
 

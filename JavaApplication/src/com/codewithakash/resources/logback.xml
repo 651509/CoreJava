@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration debug="true">
+    <!--
+    Appender  are mainly used to which we wanted to the output of log.
+    for eg: FileAppender for file, here, used ConsoleAppender
+    -->
+    <appender name ="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} {%thread} %-5level %logger{36} - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <!--
+    Level of log depends: Debug is fine grained log level which include Error, Warn, Fatal etc.
+    If we change the log level to Error and in execute log.debug, in Console we will not get any logger as level scope decreases
+    -->
+    <logger name="com.codewithakash.lesson3.logging" level="debug"/>
+    <root level ="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
