@@ -1,4 +1,4 @@
-package com.codewithakash.lesson3.logging;
+package com.codewithakash.corejava.lesson3.logging;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

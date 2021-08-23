@@ -1,6 +1,4 @@
-package com.codewithakash.lesson4.exceptionhandling;
-
-import java.sql.SQLException;
+package com.codewithakash.corejava.lesson4.exceptionhandling;
 
 public class Car {
 

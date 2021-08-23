@@ -1,4 +1,4 @@
-package com.codewithakash.lesson5.collections;
+package com.codewithakash.corejava.lesson5.collections;
 
 public class Employee {
 

@@ -1,10 +1,7 @@
-package com.codewithakash.logtest;
+package com.codewithakash.corejava.logtest;
 
-import com.codewithakash.lesson3.logging.CarService;
-import com.codewithakash.lesson4.exceptionhandling.Car;
+import com.codewithakash.corejava.lesson3.logging.CarService;
 import org.junit.Test;
-
-import java.util.Scanner;
 
 public class CarServiceTest {
 

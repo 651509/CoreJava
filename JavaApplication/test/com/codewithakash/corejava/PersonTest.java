@@ -1,6 +1,6 @@
-package com.codewithakash;
+package com.codewithakash.corejava;
 
-import com.codewithakash.lesson1.Person;
+import com.codewithakash.corejava.lesson1.Person;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

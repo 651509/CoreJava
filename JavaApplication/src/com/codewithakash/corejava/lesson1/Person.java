@@ -1,6 +1,6 @@
-package com.codewithakash.lesson1;
+package com.codewithakash.corejava.lesson1;
 
-import com.codewithakash.lesson2.PersonName;
+import com.codewithakash.corejava.lesson2.PersonName;
 
 public class Person {
 

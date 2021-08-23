@@ -1,4 +1,4 @@
-package com.codewithakash.lesson4.exceptionhandling;
+package com.codewithakash.corejava.lesson4.exceptionhandling;
 
 public enum CarState {
 
